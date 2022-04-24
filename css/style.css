@@ -431,7 +431,7 @@ section{
     opacity: 1;
 }
 
-.contact form{
+.contact {
     margin:1rem auto;
     max-width: 70rem;
     border-radius: .5rem;
@@ -460,13 +460,27 @@ section{
     box-shadow: var(--box-shadow-inset);
 }
 
-.credits{
-    font-size: 2rem;
+.contactme {
     text-align: center;
-    padding:2.5rem 1rem;
+}
+.contactme span{
+    color: var(--green);
+}
+
+#map {
+    height: 60vh;
+    width: 48vw;
+  }
+
+  
+
+.credits{
+    /* font-size: 2rem; */
+    text-align: center;
+     /* padding:2.5rem 1rem;
     margin-top: 1rem;
-    border-top: var(--border);
-    color:var(--black);
+   border-top: var(--border);
+    color:var(--black); */
 }
 
 .credits span{
