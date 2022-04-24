@@ -18,7 +18,7 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: .2s linear;
 }
 
@@ -76,7 +76,7 @@ section{
 
 .heading span{
     color:var(--green);
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .header{
@@ -184,7 +184,7 @@ section{
     font-size: 7rem;
     color:var(--black);
     line-height: 1.1;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .home .content p{
@@ -420,7 +420,7 @@ section{
 .portfolio .box-container .box .content h3{
     font-size: 2.5rem;
     color:var(--black);
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     transform: translateY(-5rem);
     opacity: 0;
     transition-delay: .3s;
