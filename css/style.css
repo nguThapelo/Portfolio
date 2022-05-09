@@ -92,11 +92,11 @@ section{
 }
 
 .header .user img{
-    margin:1rem 0;
-    border:1rem solid transparent;
-    border-radius: 50%;
-    height: 18rem;
-    width: 18rem;
+    margin:0rem 0;
+    border:0.5rem solid transparent;
+    border-radius: 10%;
+    height: 25rem;
+    width: 25rem;
     box-shadow: var(--box-shadow);
 }
 
@@ -108,6 +108,7 @@ section{
 .header .user p{
     color:var(--green);
     font-size: 1.5rem;
+    font-weight:bold;
 }
 
 .header .navbar{
@@ -429,6 +430,7 @@ section{
 .portfolio .box-container .box:hover .content h3{
     transform: translateY(0rem);
     opacity: 1;
+    cursor: pointer;
 }
 
 .contact {
@@ -462,6 +464,7 @@ section{
 
 .contactme {
     text-align: center;
+    color:var(--black); 
 }
 .contactme span{
     color: var(--green);
@@ -479,8 +482,8 @@ section{
     text-align: center;
      /* padding:2.5rem 1rem;
     margin-top: 1rem;
-   border-top: var(--border);
-    color:var(--black); */
+   border-top: var(--border);*/
+    color:var(--black); 
 }
 
 .credits span{
