@@ -95,8 +95,8 @@ section{
     margin:0rem 0;
     border:0.5rem solid transparent;
     border-radius: 10%;
-    height: 25rem;
-    width: 25rem;
+    height: 20rem;
+    width: 20rem;
     box-shadow: var(--box-shadow);
 }
 
@@ -475,6 +475,10 @@ section{
     width: 48vw;
   }
 
+  .mapContainer {
+
+  }
+
   
 
 .credits{
@@ -489,20 +493,6 @@ section{
 .credits span{
     color: var(--green);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* media queries  */
@@ -542,5 +532,14 @@ section{
         width:100%;
         border-right: 0;
     }
+
+    #map {
+        height: 30vh;
+        width: 24vw;
+      }
+    
+      .mapContainer {
+    
+      }
 
 }
