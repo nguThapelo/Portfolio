@@ -476,7 +476,8 @@ section{
   }
 
   .mapContainer {
-
+height: 400px;
+width: 600px;
   }
 
   
@@ -539,7 +540,8 @@ section{
       }
     
       .mapContainer {
-    
-      }
+        height: 200px;
+        width: 300px;
+          }
 
 }
