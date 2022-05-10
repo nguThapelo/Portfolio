@@ -521,6 +521,11 @@ width: 600px;
         display: initial;
     }
 
+    .mapContainer {
+        height: 200px;
+        width: 300px;
+          }
+
 }
 
 @media (max-width:450px){
@@ -539,9 +544,6 @@ width: 600px;
         width: 24vw;
       }
     
-      .mapContainer {
-        height: 200px;
-        width: 300px;
-          }
+     
 
 }
