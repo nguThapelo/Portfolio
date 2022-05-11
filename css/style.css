@@ -76,6 +76,74 @@ section {
     padding-bottom: 2rem;
 }
 
+/* moreinfo link to github*/
+
+.moreinfo {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--black);
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+
+u {
+    text-decoration: underline;
+}
+
+
+/* Hover popover */
+
+.popover__title {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--black);
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+  }
+  
+  .popover__wrapper {
+    position: relative;
+    margin-top: 1.5rem;
+    /* display: inline-block; */
+  }
+  .popover__content {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    margin-left: 40em;
+    transform: translate(0, 10px);
+    background-color: #bfbfbf;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    width: auto;
+  }
+  .popover__content:before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    right: calc(50% - 10px);
+    top: -8px;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #bfbfbf transparent;
+    transition-duration: 0.3s;
+    transition-property: transform;
+  }
+  .popover__wrapper:hover .popover__content {
+    z-index: 10;
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, -20px);
+    transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+  }
+  .popover__message {
+    text-align: center;
+ 
+}
+  /* header */
+  
 .heading span {
     color: var(--green);
     /* text-transform: uppercase; */
@@ -556,6 +624,11 @@ section {
         width: 24vw;
     }
 
-
+    .mapContainer {
+        margin-left: 3em;
+    margin-top: 2em;
+        height: 250px;
+        width: 275px;
+    }
 
 }
