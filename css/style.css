@@ -474,9 +474,9 @@ u {
 .portfolio .box-container .box img {
     height: 95%;
     width: 90%;
-    zoom: 10%;
-    margin-top: 2.5em;
-    margin-left: 3.5em;
+    /* zoom: 15%; */
+    margin-top: 0.5em;
+    margin-left: 1.5em;
     object-fit: cover;
 }
 
